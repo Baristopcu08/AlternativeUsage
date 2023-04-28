@@ -55,7 +55,6 @@ public class Stepdefs extends BaseTest {
     @And("opencart, user clicks button {string}")
     public void opencartUserClicksButton(String buttonText) {
         click(OpenCart.getLocator(OpenCart.Type.BUTTON, buttonText));
-        Assert.fail();
     }
 
     @Then("opencart, the link {string} should be present")

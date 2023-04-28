@@ -2,13 +2,15 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite" parallel="tests">
     <test verbose="2" preserve-order="true" name="test1">
+        <parameter name="browser" value="chrome"/>
         <classes>
             <class name="runners.Runner1"/>
         </classes>
     </test>
     <test verbose="2" preserve-order="true" name="test2">
+        <parameter name="browser" value="firefox"/>
         <classes>
-            <class name="runners.Runner2"/>
+            <class name="runners.Runner1"/>
         </classes>
     </test>
 </suite>

@@ -72,11 +72,4 @@ public class Tests extends BaseTest {
         System.out.println(driver.getWindowHandle());
 
     }
-
-
-
-
-
-
-
 }
